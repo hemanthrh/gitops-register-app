@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "ci-cd-slavet" }
+    agent { label "ci-cd-slave" }
     environment {
               APP_NAME = "register-app-pipeline"
     }
